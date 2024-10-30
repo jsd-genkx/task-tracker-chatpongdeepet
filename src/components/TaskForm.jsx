@@ -8,7 +8,7 @@ export default function TaskForm({ onAddTask }) {
     if (inputText.trim()) {
       onAddTask({
         id: Date.now(),
-        inputText,
+        text: inputText,
       });
       setInputText("");
     }
