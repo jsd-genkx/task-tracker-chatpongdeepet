@@ -10,7 +10,7 @@ export default function App() {
   };
 
   return (
-    <div>
+    <div className="text-center p-5 border">
       <h1>Task Tracker</h1>
       <TaskForm onAddTask={handleAddTask} />
     </div>
